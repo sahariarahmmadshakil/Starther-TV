@@ -1,0 +1,235 @@
+body {
+    background-color: #f7f3eb;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    position: relative
+}
+
+* {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.main {
+    max-width: 1366px;
+    margin: auto;
+}
+
+.nav-text-color {
+    color: #708b89 !important;
+}
+
+.top-img {
+    background-image: url("../images/top-bg.gif");
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    margin: 55px 0px;
+}
+
+.top-logo {
+    width: 35%;
+}
+
+.driven-area {
+    height: 550px;
+}
+
+.driven-document {
+    background-color: #708b89b8;
+    font-size: 20px;
+}
+
+.stream-area>button {
+    padding: 15px 45px;
+    background: #DF8656;
+    border-radius: 25px;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 14px;
+    border: none;
+}
+
+.about-bg {
+    background-color: #EECAC0;
+}
+
+.about-image {
+    margin-left: 3%;
+}
+
+.form-box-bg {
+    background-color: #708B89;
+    border: none;
+    color: #ffffff;
+    padding: 5px 5px;
+}
+
+.form-box-submit-bg {
+    background-color: #DF8656;
+    border: none;
+    color: #ffffff;
+    padding: 5px 5px;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+.watch-bg {
+    background-color: #708B89;
+}
+
+
+
+.stream-logo {
+    width: 25%;
+}
+
+
+.streaming-btn {
+    background-color: #DF8656;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.review {
+    background-color: #DF8656;
+}
+
+.shop-area {
+    background-color: #F7F3EB;
+}
+
+.footer {
+    background-image: url('../images/footer.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #df8656;
+}
+
+.footer-list>a:hover {
+    color: #df8656;
+}
+
+.ff-637017795b16fe9549ad7e40__container {
+    background-color: #eecac0 !important;
+
+
+}
+
+.form-area-bg {
+    width: 70%;
+    float: left;
+}
+
+.paypal-area {
+    display: flex;
+    
+}
+
+.buy-area-parent>a {
+    background-color: #DF8656;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: 900;
+    font-size: 22px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+
+    .form-area-bg {
+        width: 100%;
+    }
+
+    .main {
+        max-width: 100%;
+    }
+
+    .top-logo {
+        width: 75%;
+    }
+
+    .driven-area {
+        height: 500px;
+    }
+
+    .header {
+        margin: 50px 0px;
+    }
+
+    .about-image {
+        margin-left: 0;
+    }
+
+    .stream-area {
+        margin: 5px;
+    }
+
+    .stream-logo {
+        width: 40%;
+    }
+
+    .form-box-submit-bg {
+        margin-left: 13%;
+    }
+
+    .form-area {
+        margin-left: 22%;
+    }
+
+    .book-shop {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar>.container,
+    .navbar>.container-fluid,
+    .navbar>.container-lg,
+    .navbar>.container-md,
+    .navbar>.container-sm,
+    .navbar>.container-xl,
+    .navbar>.container-xxl {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .paypal-area {
+        display: flex;
+        justify-content: flex-start
+    }
+
+    .video-area {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .buy-area-parent>a {
+        padding: 4px 5px;
+        font-weight: 900;
+        text-align: center;
+        font-size: 12px;
+    }
+}
